@@ -1,1 +1,2 @@
-This is read me file
+This script will read hots from inventory.yml file and generate a json output of hosts with host variables with itek password from siptrack.
+It can use in ansible as dynamic inventory file to do bulk tasks with ansible.
