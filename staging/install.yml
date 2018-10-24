@@ -1,0 +1,11 @@
+- hosts: all
+  become: true
+  tasks:
+    #- name: Install python-pip
+    #  apt:
+    #    name: python-pip
+    #    state: present
+    #- name: Install pip install pipenv
+    #  pip:
+    #    name: pipenv
+    #    state: present

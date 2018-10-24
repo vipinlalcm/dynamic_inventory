@@ -43,6 +43,7 @@ class config_gen(siptrack_search):
 
         with open(config_file, 'r') as ymlfile:
             cfg = yaml.load(ymlfile)
+
         for section in cfg:
             for i in range(len(cfg[section]['hosts'])):
                 hostlist.append(cfg[section]['hosts'][i])
