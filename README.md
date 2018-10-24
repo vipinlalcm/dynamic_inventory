@@ -10,8 +10,10 @@ Description
     In this very simple ansible playbook, we are simply installing some packages in all monitorscout staging servers.
 
 How to run
-==========
-- If you need to install in all hosts at a time. Use the below syntax
+===========
+Note: You should go to staging directory to run it, because inventory_generate.py script reads the host input file from the same directory.
+
+- If you need to install in all hosts at a time. Use the below syntaxs
   
     #ansible-playbook install.yml -i inventory_generate.py
 
