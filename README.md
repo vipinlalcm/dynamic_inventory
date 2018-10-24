@@ -11,7 +11,7 @@ How to run
 ==========
 - If you need to install in all hosts at a time. Use the below syntax
   
-#ansible-playbook install.yml -i inventory_generate.py
+    #ansible-playbook install.yml -i inventory_generate.py
 
 - If you need to limit the installation with spesific hosts, use the below syntax
   
