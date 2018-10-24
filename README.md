@@ -10,10 +10,13 @@ In this very simple ansible playbook, we are simply installing some packages in 
 How to run
 ==========
 - If you need to install in all hosts at a time. Use the below syntax
-  #ansible-playbook install.yml -i inventory_generate.py
+  
+#ansible-playbook install.yml -i inventory_generate.py
 
 - If you need to limit the installation with spesific hosts, use the below syntax
-  #ansible-playbook install.yml -i inventory_generate.py -l staging-p1.p.monitorscout.com
+  
+#ansible-playbook install.yml -i inventory_generate.py -l staging-p1.p.monitorscout.com
 
 - If you wanted to limit the installation with spesifc groups, use the below syntax
-  #ansible-playbook install.yml -i inventory_generate.py -l Staging_Delegators
+  
+#ansible-playbook install.yml -i inventory_generate.py -l Staging_Delegators
