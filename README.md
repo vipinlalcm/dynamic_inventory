@@ -11,7 +11,8 @@ Description
 
 How to run
 ===========
-Note: You should go to staging directory to run it, because inventory_generate.py script reads the host input file from the same directory.
+
+    Note: You should go to staging directory to run it, because inventory_generate.py script reads the host input file from the same directory.
 
 - If you need to install in all hosts at a time. Use the below syntaxs
   
