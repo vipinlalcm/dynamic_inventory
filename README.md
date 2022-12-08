@@ -2,12 +2,12 @@ Introuduction
 =======
     
     This is a sample playbook with Dynamic inventory list in ansible. Which reads the group and host variables from inventory.yml and generate ansible compatible inventory config file.
-It fetchs "itek" password from siptrack and creates host variables with itek user and its password.
+It fetchs user password from password management and creates host variables with  users and its password.
 
 Description
 ============
     
-    In this very simple ansible playbook, we are simply installing some packages in all monitorscout staging servers.
+    In this very simple ansible playbook, we are simply installing some packages in all staging monitor servers.
 
 How to run
 ===========
