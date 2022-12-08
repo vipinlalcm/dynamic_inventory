@@ -20,7 +20,7 @@ How to run
 
 - If you need to limit the installation with spesific hosts, use the below syntax
   
-    #ansible-playbook install.yml -i inventory_generate.py -l staging-p1.p.monitorscout.com
+    #ansible-playbook install.yml -i inventory_generate.py -l staging-p1.p.monitors.com
 
 - If you wanted to limit the installation with spesifc groups, use the below syntax
   
